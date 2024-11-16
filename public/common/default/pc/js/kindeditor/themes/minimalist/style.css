@@ -1,0 +1,242 @@
+@font-face {
+  font-family: 'remixicon';
+  src:  url('fonts/remixicon.eot?sl5zgt');
+  src:  url('fonts/remixicon.eot?sl5zgt#iefix') format('embedded-opentype'),
+    url('fonts/remixicon.ttf?sl5zgt') format('truetype'),
+    url('fonts/remixicon.woff?sl5zgt') format('woff'),
+    url('fonts/remixicon.svg?sl5zgt#remixicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.remixicon {
+  display: inline-block;
+  font-size:18px;
+}
+
+[class^="remixicon-"], [class*=" remixicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'remixicon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.remixicon-hilitecolor:before {
+  content: "\e913";
+}
+.remixicon-tableinsert:before {
+  content: "\e934";
+}
+.remixicon-tabledelete:before {
+  content: "\e935";
+}
+.remixicon-rightBottomCorner:before {
+  content: "\e93f";
+}
+.remixicon-ai:before {
+  content: "\e900";
+}
+.remixicon-angle-down:before {
+  content: "\e901";
+}
+.remixicon-baidumap:before {
+  content: "\e902";
+}
+.remixicon-bold:before {
+  content: "\e903";
+}
+.remixicon-caret-down:before {
+  content: "\e904";
+}
+.remixicon-caret-right:before {
+  content: "\e905";
+}
+.remixicon-checked:before {
+  content: "\e906";
+}
+.remixicon-clearhtml:before {
+  content: "\e907";
+}
+.remixicon-close:before {
+  content: "\e908";
+}
+.remixicon-code:before {
+  content: "\e909";
+}
+.remixicon-code-edit:before {
+  content: "\e90a";
+}
+.remixicon-emoticons:before {
+  content: "\e90b";
+}
+.remixicon-fontname:before {
+  content: "\e90c";
+}
+.remixicon-fontsize:before {
+  content: "\e90d";
+}
+.remixicon-forecolor:before {
+  content: "\e90e";
+}
+.remixicon-formatblock:before {
+  content: "\e90f";
+}
+.remixicon-fullscreen:before {
+  content: "\e910";
+}
+.remixicon-hide:before {
+  content: "\e911";
+}
+.remixicon-hide-edit:before {
+  content: "\e912";
+}
+.remixicon-hr:before {
+  content: "\e914";
+}
+.remixicon-image:before {
+  content: "\e915";
+}
+.remixicon-indent:before {
+  content: "\e916";
+}
+.remixicon-insertfile:before {
+  content: "\e917";
+}
+.remixicon-insertorderedlist:before {
+  content: "\e918";
+}
+.remixicon-insertunorderedlist:before {
+  content: "\e919";
+}
+.remixicon-italic:before {
+  content: "\e91a";
+}
+.remixicon-justifycenter:before {
+  content: "\e91b";
+}
+.remixicon-justifyfull:before {
+  content: "\e91c";
+}
+.remixicon-justifyleft:before {
+  content: "\e91d";
+}
+.remixicon-justifyright:before {
+  content: "\e91e";
+}
+.remixicon-lineheight:before {
+  content: "\e91f";
+}
+.remixicon-link:before {
+  content: "\e920";
+}
+.remixicon-media:before {
+  content: "\e921";
+}
+.remixicon-mention:before {
+  content: "\e922";
+}
+.remixicon-multiimage:before {
+  content: "\e923";
+}
+.remixicon-outdent:before {
+  content: "\e924";
+}
+.remixicon-pagebreak:before {
+  content: "\e925";
+}
+.remixicon-preview:before {
+  content: "\e926";
+}
+.remixicon-question-circle:before {
+  content: "\e927";
+}
+.remixicon-quickformat:before {
+  content: "\e928";
+}
+.remixicon-quote-left:before {
+  content: "\e929";
+}
+.remixicon-quote-right:before {
+  content: "\e92a";
+}
+.remixicon-removeformat:before {
+  content: "\e92b";
+}
+.remixicon-selectall:before {
+  content: "\e92c";
+}
+.remixicon-sort:before {
+  content: "\e92d";
+}
+.remixicon-source:before {
+  content: "\e92e";
+}
+.remixicon-strikethrough:before {
+  content: "\e92f";
+}
+.remixicon-subscript:before {
+  content: "\e930";
+}
+.remixicon-superscript:before {
+  content: "\e931";
+}
+.remixicon-table:before {
+  content: "\e932";
+}
+.remixicon-tablecellprop:before {
+  content: "\e933";
+}
+.remixicon-tablecoldelete:before {
+  content: "\e936";
+}
+.remixicon-tablecolinsertleft:before {
+  content: "\e937";
+}
+.remixicon-tablecolinsertright:before {
+  content: "\e938";
+}
+.remixicon-tablecolmerge:before {
+  content: "\e939";
+}
+.remixicon-tablecolsplit:before {
+  content: "\e93a";
+}
+.remixicon-tableprop:before {
+  content: "\e93b";
+}
+.remixicon-tablerowdelete:before {
+  content: "\e93c";
+}
+.remixicon-tablerowinsertabove:before {
+  content: "\e93d";
+}
+.remixicon-tablerowinsertbelow:before {
+  content: "\e93e";
+}
+.remixicon-tablerowmerge:before {
+  content: "\e940";
+}
+.remixicon-tablerowsplit:before {
+  content: "\e941";
+}
+.remixicon-template:before {
+  content: "\e942";
+}
+.remixicon-toggleEditor:before {
+  content: "\e943";
+}
+.remixicon-underline:before {
+  content: "\e944";
+}
+.remixicon-unlink:before {
+  content: "\e945";
+}
