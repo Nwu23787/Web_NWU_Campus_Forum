@@ -27,14 +27,14 @@ export default defineConfig({
     },
 
     // vite 反向代理解决跨域问题
-    server: {
-        proxy: {
-            '/': {
-                target: 'http://127.0.0.1:8080',
-                changeOrigin: true,
-            }
-        }
-    },
+    // server: {
+    //     proxy: {
+    //         '/': {
+    //             target: 'http://127.0.0.1:8080',
+    //             changeOrigin: true,
+    //         }
+    //     }
+    // },
     //plugins: [vue()]
     plugins: [
         vue({
