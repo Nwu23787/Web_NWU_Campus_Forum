@@ -6,7 +6,7 @@
                 <div class="headerModule">
                     <div class="shadow-container">
                         <div class="box">
-                            <router-link tag="a" class="logo" to="/"><img alt="LOGO" src="@/assets/images/logo.gif" ></router-link>
+                            <router-link tag="a" class="logo" to="/"><img alt="LOGO" class="logoPng" src="@/assets/images/logoBig.png" ></router-link>
 
                             <!-- 站点栏目 -->
                             <div class="nav">
@@ -460,6 +460,10 @@
                     float: left;
                     position:relative;
                     top: 10px;
+                    .logoPng{
+                        width: 130px;
+                    }
+                    
                 }
                 .nav {
                     float: left;
