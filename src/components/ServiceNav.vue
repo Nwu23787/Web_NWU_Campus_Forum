@@ -17,8 +17,8 @@
             <li class="title" :class="{ 'active': router.currentRoute.value.path == '/user/control/privateMessageList' || router.currentRoute.value.path == '/user/control/privateMessageChatList'}"><router-link tag="a" to="/user/control/privateMessageList">私信</router-link></li>
             <li class="title" :class="{ 'active': router.currentRoute.value.path == '/user/control/remindList'}"><router-link tag="a" to="/user/control/remindList">提醒</router-link></li>
             <li class="title" :class="{ 'active': router.currentRoute.value.path == '/user/control/systemNotifyList'}"><router-link tag="a" to="/user/control/systemNotifyList">系统通知</router-link></li>
-            <li class="title" :class="{ 'active': router.currentRoute.value.path == '/user/control/membershipCardOrderList'}"><router-link tag="a" to="/user/control/membershipCardOrderList">会员卡订单</router-link></li>
-            <li class="title" :class="{ 'active': router.currentRoute.value.path == '/user/control/balance'}"><router-link tag="a" to="/user/control/balance">余额</router-link></li>
+            <!-- <li class="title" :class="{ 'active': router.currentRoute.value.path == '/user/control/membershipCardOrderList'}"><router-link tag="a" to="/user/control/membershipCardOrderList">会员卡订单</router-link></li> -->
+            <!-- <li class="title" :class="{ 'active': router.currentRoute.value.path == '/user/control/balance'}"><router-link tag="a" to="/user/control/balance">余额</router-link></li> -->
             
             <el-dropdown>
                 <li class="title more hide" >
@@ -28,13 +28,13 @@
 
                 <template #dropdown>
                     <el-dropdown-menu>
-                        <el-dropdown-item @click="router.push({path: '/user/control/giveRedEnvelopeList'})"> 发红包 </el-dropdown-item>
-                        <el-dropdown-item @click="router.push({path: '/user/control/receiveRedEnvelopeList'})"> 收红包 </el-dropdown-item>
+                        <!-- <el-dropdown-item @click="router.push({path: '/user/control/giveRedEnvelopeList'})"> 发红包 </el-dropdown-item> -->
+                        <!-- <el-dropdown-item @click="router.push({path: '/user/control/receiveRedEnvelopeList'})"> 收红包 </el-dropdown-item> -->
                         <el-dropdown-item @click="router.push({path: '/user/control/editUser'})"> 修改个人资料 </el-dropdown-item>
-                        <el-dropdown-item @click="router.push({path: '/user/control/realNameAuthentication'})"> 实名认证 </el-dropdown-item>
-                        <el-dropdown-item @click="router.push({path: '/user/control/reportList'})"> 举报 </el-dropdown-item>
+                        <!-- <el-dropdown-item @click="router.push({path: '/user/control/realNameAuthentication'})"> 实名认证 </el-dropdown-item> -->
+                        <!-- <el-dropdown-item @click="router.push({path: '/user/control/reportList'})"> 举报 </el-dropdown-item> -->
                         <el-dropdown-item @click="router.push({path: '/user/control/point'})"> 积分日志 </el-dropdown-item>
-                        <el-dropdown-item @click="router.push({path: '/user/control/userLoginLogList'})"> 登录日志 </el-dropdown-item>
+                        <!-- <el-dropdown-item @click="router.push({path: '/user/control/userLoginLogList'})"> 登录日志 </el-dropdown-item> -->
                     </el-dropdown-menu>
                 </template>
             </el-dropdown>
@@ -63,7 +63,7 @@
     }
     .title {
         float: left;
-        padding: 0 15px;
+        padding: 0 21px;
         height: 46px;
         line-height: 46px;
         cursor: pointer;

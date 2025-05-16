@@ -68,12 +68,12 @@
                         <li :class="state.filterCondition == '30' ? 'active' : ''">
                             <router-link :to="{path: '/askList', query: {filterCondition: 30}}" >已解决</router-link>
                         </li>
-                        <li :class="state.filterCondition == '40' ? 'active' : ''">
+                        <!-- <li :class="state.filterCondition == '40' ? 'active' : ''">
                             <router-link :to="{path: '/askList', query: {filterCondition: 40}}" >积分悬赏</router-link>
                         </li>
                         <li :class="state.filterCondition == '50' ? 'active' : ''">
                             <router-link :to="{path: '/askList', query: {filterCondition: 50}}" >现金悬赏</router-link>
-                        </li>
+                        </li> -->
                         <div class="postQuestionButton">
                             <el-button type="primary" @click="router.push({path: '/addQuestion'})" plain style="width: 100%;" ><Icon name="question-answer-line" size="15px" class="icon"/>提问题</el-button>  
                         </div>

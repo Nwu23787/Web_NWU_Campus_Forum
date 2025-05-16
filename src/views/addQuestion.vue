@@ -36,20 +36,20 @@
                             </el-tooltip>
                         </el-col>
                     </el-row>
-                    <el-form-item :error="error.amount" v-if="form.questionRewardAmountMax == null || (form.questionRewardAmountMax != null && parseFloat(form.questionRewardAmountMax) >0)">
+                    <!-- <el-form-item :error="error.amount" v-if="form.questionRewardAmountMax == null || (form.questionRewardAmountMax != null && parseFloat(form.questionRewardAmountMax) >0)">
                         <el-input v-model.trim="form.amount" placeholder="悬赏金额" maxlength="10" clearable style="width: 150px;margin-right:10px;"></el-input>
                         <span class="help-text">
                             <span v-if="parseFloat(form.questionRewardAmountMin) >0">悬赏金额不能少于 {{form.questionRewardAmountMin}} 元；</span>	
                             <span v-if="form.questionRewardAmountMax != null && parseFloat(form.questionRewardAmountMax) >0">悬赏金额不能超过 {{form.questionRewardAmountMax}} 元；</span>	
                             <span>用户共有金额 {{form.maxDeposit}} 元</span>
                         </span>
-                    </el-form-item>
+                    </el-form-item> -->
                     <el-form-item :error="error.point" v-if="form.questionRewardPointMax == null || (form.questionRewardPointMax != null && parseInt(form.questionRewardPointMax) >0)">
                         <el-input v-model.trim="form.point" placeholder="悬赏积分" maxlength="9" clearable style="width: 150px;margin-right:10px;"></el-input>
                         <span class="help-text">
                             <span v-if="parseInt(form.questionRewardPointMin) >0">悬赏积分不能少于 {{form.questionRewardPointMin}} ；</span>	
                             <span v-if="form.questionRewardPointMax != null && parseInt(form.questionRewardPointMax) >0">悬赏积分不能超过 {{form.questionRewardPointMax}}；</span>	
-                            <span>用户共有积分 {{form.maxPoint}} 元</span>
+                            <span>用户共有积分 {{form.maxPoint}} 分</span>
                         </span>
                     </el-form-item>
                     

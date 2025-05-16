@@ -165,7 +165,7 @@
                                     <h4 class="title">系统通知</h4>	
                                 </router-link>
                             </li>
-                            <li class="item" onclick="">
+                            <!-- <li class="item" onclick="">
                                 <router-link tag="a" to="/user/control/membershipCardOrderList" class="a-pic">
                                     <div class="img" ><Icon name="order" size="48px"/></div> 	
                                     <h4 class="title">会员卡订单</h4>
@@ -188,37 +188,37 @@
                                     <div class="img" ><Icon name="redEnvelope-2" size="48px"/></div> 
                                     <h4 class="title">收红包</h4>	
                                 </router-link>
-                            </li>
+                            </li> -->
                             <li class="item">
                                 <router-link tag="a" to="/user/control/editUser" class="a-pic">
                                     <div class="img" ><Icon name="pencil-alt" size="48px"/></div> 
                                     <h4 class="title">修改个人资料</h4>	
                                 </router-link>
                             </li>
-                            <li class="item">
+                            <!-- <li class="item">
                                 <router-link tag="a" to="/user/control/realNameAuthentication" class="a-pic">
                                     <div class="img" ><Icon name="realNameAuthentication" size="48px"/></div> 
                                     <h4 class="title">实名认证</h4>	
                                 </router-link>
-                            </li>
-                            <li class="item">
+                            </li> -->
+                            <!-- <li class="item">
                                 <router-link tag="a" to="/user/control/reportList" class="a-pic">
                                     <div class="img" ><Icon name="error-warning-line" size="48px"/></div> 	
                                     <h4 class="title">举报</h4>
                                 </router-link>
-                            </li>
+                            </li> -->
                             <li class="item">
                                 <router-link tag="a" to="/user/control/point" class="a-pic">
                                     <div class="img" ><Icon name="point" size="48px"/></div> 	
                                     <h4 class="title">积分日志</h4>
                                 </router-link>
                             </li>
-                            <li class="item">
+                            <!-- <li class="item">
                                 <router-link tag="a" to="/user/control/userLoginLogList" class="a-pic">
                                     <div class="img" ><Icon name="log" size="48px"/></div> 	
                                     <h4 class="title">登录日志</h4>
                                 </router-link>
-                            </li>
+                            </li> -->
 
                             
                         </ul>

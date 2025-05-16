@@ -4,7 +4,7 @@
         <div class="message">
 
         </div>
-        <div class="copyright">版权所有<em>&copy;diyhi.com</em>
+        <div class="copyright"><em>&copy;西北大学校园论坛</em>
             <router-link tag="a" :to="'/feedback'" target="_blank">联系我们</router-link>
         </div>	
     </div>
